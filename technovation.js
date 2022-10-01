@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelector('login').onclick = function(){
-        location.href="disability_form.html";
+    document.querySelector('#parent').onclick = function(){
+        window.location.href="disability_form.html";
     }
 });
